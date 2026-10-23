@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "wed-ind.chaoxi.tidal",
+      "name": "潮汐量化-潮汐指标",
+      "version": "CT001.2",
+      "entry": "plugins/chaoxi-tidal-indicator.js",
+      "slots": [
+        "chart.main.overlay",
+        "settings.plugin",
+        "panel.analysis"
+      ],
+      "host": "Wed-DP",
+      "verifiedHostVersion": "V0.001.00043",
+      "description": "只显示云端发布的盘中信号标记（分时主图/K线主图），本地不算信号、不存历史。信号源为可配置的公开 HTTPS 直链目录（index.json + YYYY-MM-DD.json）。"
+    }
+  ]
+}

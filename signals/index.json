@@ -1,0 +1,9 @@
+{
+ "kind": "chaoxi-intraday-index",
+ "version": 1,
+ "dates": [
+  "2026-10-20",
+  "2026-10-22",
+  "2026-10-23"
+ ]
+}
