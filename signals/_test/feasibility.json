@@ -1,0 +1,12 @@
+{
+  "kind": "chaoxi-intraday-signals",
+  "version": 1,
+  "test": true,
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T21:12:00+08:00",
+  "signals": [
+    {"id": "test-001", "code": "002073", "name": "软控股份", "type": "intraday_t", "side": "buy", "time": "2026-10-23T10:15:00+08:00", "price": 6.12, "source": "aggressive_t", "strength": 78, "status": "confirmed"},
+    {"id": "test-002", "code": "002553", "name": "南方精工", "type": "kline_30m", "side": "sell", "time": "2026-10-23T14:00:00+08:00", "price": 15.62, "source": "kline_paper", "strength": 65, "status": "confirmed"},
+    {"id": "test-003", "code": "002050", "name": "三花智控", "type": "kline_day", "side": "buy", "time": "2026-10-23T09:45:00+08:00", "price": 35.8, "source": "kline_paper", "strength": 71, "status": "confirmed"}
+  ]
+}
